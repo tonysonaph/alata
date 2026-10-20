@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -4 634 76" role="img" aria-label="ALATA">
+<defs><mask id="cut" maskUnits="userSpaceOnUse" x="-10" y="-10" width="120" height="100"><rect x="-10" y="-10" width="120" height="100" fill="#fff"/><rect x="66" y="48" width="30" height="3.2" fill="#000" transform="rotate(-24 81 49.6)"/></mask></defs>
+<g fill="none" stroke="#fff" stroke-width="7" stroke-linejoin="miter" stroke-miterlimit="12">
+<g transform="translate(0 0)" mask="url(#cut)"><path d="M0 64 L46 4 L92 64" /></g>
+<path d="M152 4 V60.5 H222"/>
+<g transform="translate(268 0)" mask="url(#cut)"><path d="M0 64 L46 4 L92 64" /></g>
+<path d="M398 7.5 H488 M443 7.5 V64"/>
+<g transform="translate(530 0)" mask="url(#cut)"><path d="M0 64 L46 4 L92 64" /></g>
+</g></svg>

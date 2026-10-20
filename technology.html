@@ -1,579 +1,341 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Technology | ALATA</title>
-<meta name="description" content="ALATA's technology stack: multi-shop dashboard, real-time inventory sync, intelligent order routing, AI-powered listing generation, dynamic pricing, demand forecasting, chat assistance, platform integrations, and security principles.">
-<meta property="og:title" content="Technology | ALATA">
-<meta property="og:description" content="ALATA's technology stack: multi-shop dashboard, real-time inventory sync, intelligent order routing, AI-powered listing generation, dynamic pricing, demand forecasting, chat assistance, platform integrations, and security principles.">
-<meta property="og:type" content="website">
-<meta property="og:image" content="assets/og.svg">
-<meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Unbounded:wght@300;400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Technology | ALATA</title><meta name="description" content="Explore ALATA’s multi-shop dashboard, inventory synchronisation, order routing, AI-assisted commerce tools, integrations, and security principles for Southeast Asia."><meta property="og:title" content="Technology | ALATA"><meta property="og:description" content="A calm, connected operating layer for selling across Southeast Asia. Explore ALATA’s dashboard, AI tools, integrations, and data principles."><meta property="og:type" content="website"><meta property="og:image" content="assets/og.svg"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body class="page-technology">
-<div class="cursor" aria-hidden="true"><span class="cursor-dot"></span><span class="cursor-ring"></span></div>
-<div class="page-transition" aria-hidden="true"></div>
-
-<header class="site-header">
-<div class="container nav-inner">
-<a class="logo" href="index.html"><img src="assets/logo.svg" alt="ALATA" width="150" height="18"></a>
-<nav class="main-nav" aria-label="Main">
-<ul class="nav-list">
-<li class="has-mega">
-<a href="solutions.html">Solutions</a>
-<div class="mega">
-<div class="mega-grid">
-<div class="mega-col">
-<h4>Launch</h4>
-<a class="mega-link" href="solutions.html#setup"><strong>Shop Setup &amp; Onboarding</strong><span>End-to-end store creation across TikTok Shop, Shopee, Lazada</span></a>
-<a class="mega-link" href="solutions.html#catalog"><strong>Catalog Management</strong><span>Centralised product data, variations, media, compliance checks</span></a>
-</div>
-<div class="mega-col">
-<h4>Grow</h4>
-<a class="mega-link" href="solutions.html#live"><strong>Live Commerce Operations</strong><span>Show planning, host management, real-time engagement tooling</span></a>
-<a class="mega-link" href="solutions.html#ads"><strong>Performance Advertising</strong><span>Cross-platform campaign structuring, creative iteration, ROAS optimisation</span></a>
-</div>
-<div class="mega-col">
-<h4>Operate</h4>
-<a class="mega-link" href="solutions.html#fulfilment"><strong>Fulfilment &amp; Logistics</strong><span>Multi-warehouse allocation, SLA tracking, returns handling</span></a>
-<a class="mega-link" href="solutions.html#service"><strong>Customer Service</strong><span>Unified inbox, SLA automation, CSAT monitoring</span></a>
-</div>
-<div class="mega-col">
-<h4>Measure</h4>
-<a class="mega-link" href="solutions.html#analytics"><strong>Business Intelligence</strong><span>Unified dashboards, cohort analysis, profitability by SKU</span></a>
-<a class="mega-link" href="solutions.html#finance"><strong>Financial Operations</strong><span>Reconciliation, fee auditing, payout forecasting, tax compliance</span></a>
-</div>
-<div class="mega-feature">
-<a class="mega-link" href="technology.html"><strong>Under the Hood</strong><span>Explore the platform architecture powering every solution →</span></a>
-</div>
-</div>
-</div>
-</li>
-<li><a href="platforms.html">Platforms</a></li>
-<li><a href="markets.html">Markets</a></li>
-<li><a href="technology.html">Technology</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="careers.html">Careers</a></li>
-<li><a href="insights.html">Insights</a></li>
-</ul>
-</nav>
-<a class="btn btn-primary nav-cta" href="contact.html">Talk to us</a>
-<button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
-</div>
-</header>
-
+<div class="cursor" aria-hidden="true"><span class="cursor-dot"></span><span class="cursor-ring"></span></div><div class="page-transition" aria-hidden="true"></div>
+<header class="site-header"><div class="container nav-inner"><a class="logo" href="index.html"><img src="assets/logo.svg" alt="ALATA" width="150" height="18"></a><nav class="main-nav" aria-label="Main"><ul class="nav-list"><li class="has-mega"><a href="solutions.html">Solutions</a><div class="mega"><div class="mega-grid"><div class="mega-column"><span class="eyebrow">Launch</span><a class="mega-link" href="solutions.html#setup"><strong>Store setup</strong><span>Prepare your storefront for market.</span></a><a class="mega-link" href="solutions.html#catalog"><strong>Catalogues</strong><span>Build clear, consistent product listings.</span></a></div><div class="mega-column"><span class="eyebrow">Grow</span><a class="mega-link" href="solutions.html#live"><strong>Live commerce</strong><span>Bring products to life with creators.</span></a><a class="mega-link" href="solutions.html#ads"><strong>Advertising</strong><span>Support campaigns with thoughtful execution.</span></a></div><div class="mega-column"><span class="eyebrow">Operate</span><a class="mega-link" href="solutions.html#fulfilment"><strong>Fulfilment</strong><span>Move orders from checkout to doorstep.</span></a><a class="mega-link" href="solutions.html#service"><strong>Customer service</strong><span>Keep every conversation considered.</span></a></div><div class="mega-column"><span class="eyebrow">Measure</span><a class="mega-link" href="solutions.html#analytics"><strong>Analytics</strong><span>See the signals behind your performance.</span></a><a class="mega-link" href="solutions.html#finance"><strong>Finance</strong><span>Reconcile payments and COD with clarity.</span></a></div><div class="mega-feature"><span class="eyebrow">Behind the work</span><strong>One connected view of commerce.</strong><p>See how the ALATA technology platform brings market operations together.</p><a href="technology.html">Explore technology <span aria-hidden="true">↗</span></a></div></div></div></li><li><a href="platforms.html">Platforms</a></li><li><a href="markets.html">Markets</a></li><li><a href="technology.html">Technology</a></li><li><a href="about.html">About</a></li><li><a href="careers.html">Careers</a></li><li><a href="insights.html">Insights</a></li></ul></nav><a class="btn btn-primary nav-cta" href="contact.html">Talk to us</a><button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
 <main id="main">
-<section class="page-hero">
-<div class="container">
-<span class="eyebrow">01 / PLATFORM</span>
-<h1 class="display" data-split>Technology built for<wbr> Southeast Asian scale</h1>
-<p class="lead">A unified operating system for multi-platform commerce. Real-time synchronisation, intelligent automation, and AI-native tooling — designed from the ground up for TikTok Shop, Shopee, and Lazada.</p>
-</div>
-<div class="hero-grid-lines" aria-hidden="true"></div>
-</section>
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Technology / The operating view</span>
+      <h1 class="display" data-split>Clarity for every <em>market.</em></h1>
+      <p class="lead">ALATA brings storefronts, stock, orders, campaigns, customer conversations, and finance into one considered operating view—so your team can make better decisions without learning another maze of tools.</p>
+    </div>
+    <div class="hero-ornament" aria-hidden="true"></div>
+  </section>
 
-<section class="section section-dark">
-<div class="container">
-<span class="eyebrow">02 / DASHBOARD</span>
-<h2 class="section-title" data-split>Multi-shop command centre</h2>
-<p class="lead">One interface. Every store. Every platform. Every market. The ALATA dashboard consolidates catalogue, orders, inventory, ads, finance, and customer conversations into a single, performant workspace.</p>
+  <section class="section">
+    <div class="container">
+      <div class="split" data-reveal>
+        <div>
+          <span class="eyebrow">01 / A shared centre of gravity</span>
+          <h2 class="section-title" data-split>Less switching.<br><em>More seeing.</em></h2>
+          <p class="lead">Every marketplace creates its own language, workflow, and rhythm. Our role is not to add more noise. It is to give teams a consistent view of what is happening across their channel portfolio.</p>
+          <p>The ALATA dashboard is designed around the questions commercial teams ask every day: Which products are moving? Where should inventory sit? What needs attention before a customer does? How is each campaign landing? The answer should be available without assembling a spreadsheet, opening six tabs, and asking three colleagues.</p>
+          <div class="feature-list">
+            <li><strong>One commercial picture</strong><span>Review sales, orders, inventory, campaigns, and service activity across supported channels.</span></li>
+            <li><strong>Useful exceptions</strong><span>Bring stock imbalances, fulfilment delays, payment queries, and content gaps into focus.</span></li>
+            <li><strong>Decisions with context</strong><span>Compare market signals, product performance, and operational status before taking action.</span></li>
+          </div>
+        </div>
+        <div class="split-visual">
+          <div class="dashboard-mock" aria-label="Illustration of the ALATA multi-shop dashboard">
+            <div class="dash-sidebar">
+              <span class="dash-brand">ALATA</span>
+              <span class="dash-nav-item active">Overview</span>
+              <span class="dash-nav-item">Orders</span>
+              <span class="dash-nav-item">Inventory</span>
+              <span class="dash-nav-item">Content</span>
+              <span class="dash-nav-item">Customers</span>
+              <span class="dash-nav-item">Finance</span>
+            </div>
+            <div class="dash-main">
+              <div class="dash-topline">
+                <div><span class="dash-kicker">Command view</span><strong>Good afternoon, Maya</strong></div>
+                <span class="dash-period">This month⌄</span>
+              </div>
+              <div class="dash-kpis">
+                <div class="dash-kpi"><span>Gross merchandise value</span><strong>Illustrative</strong><small>Across connected shops</small></div>
+                <div class="dash-kpi"><span>Orders to fulfil</span><strong>24</strong><small>6 need review</small></div>
+                <div class="dash-kpi"><span>Items needing attention</span><strong>8</strong><small>Inventory and content</small></div>
+              </div>
+              <div class="dash-chart">
+                <div class="dash-chart-head"><strong>Commercial overview</strong><span>GMV · Orders</span></div>
+                <div class="dash-bars" aria-hidden="true">
+                  <i style="--bar:42%"></i><i style="--bar:58%"></i><i style="--bar:48%"></i><i style="--bar:72%"></i><i style="--bar:63%"></i><i style="--bar:86%"></i><i style="--bar:76%"></i><i style="--bar:92%"></i><i style="--bar:81%"></i><i style="--bar:100%"></i><i style="--bar:88%"></i><i style="--bar:94%"></i>
+                </div>
+                <div class="dash-axis"><span>Week 1</span><span>Week 2</span><span>Week 3</span><span>Week 4</span></div>
+              </div>
+              <div class="dash-table">
+                <div class="dash-table-head"><span>Shop</span><span>Orders</span><span>Status</span></div>
+                <div><span>Singapore store</span><span>128</span><span class="badge">On track</span></div>
+                <div><span>Thailand store</span><span>94</span><span class="badge">Review</span></div>
+                <div><span>Malaysia store</span><span>73</span><span class="badge">On track</span></div>
+              </div>
+            </div>
+          </div>
+          <p class="note">Dashboard figures shown are illustrative interface examples, not reported results.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<div class="dashboard-mock" data-reveal>
-<aside class="dash-sidebar">
-<div class="dash-brand"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 2L4 7v10l8 5 8-5V7L12 2z"/><path d="M4 7l8 5 8-5"/></svg><span>ALATA</span></div>
-<nav class="dash-nav" role="navigation" aria-label="Dashboard sections">
-<a class="dash-nav-item active" href="#" aria-current="page"><span class="dash-nav-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></span><span>Overview</span></a>
-<a class="dash-nav-item" href="#"><span class="dash-nav-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 6L12 18L4 6"/><path d="M4 10h16"/></svg></span><span>Catalogue</span></a>
-<a class="dash-nav-item" href="#"><span class="dash-nav-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1 0 8"/></svg></span><span>Orders</span></a>
-<a class="dash-nav-item" href="#"><span class="dash-nav-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></span><span>Inventory</span></a>
-<a class="dash-nav-item" href="#"><span class="dash-nav-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span><span>Advertising</span></a>
-<a class="dash-nav-item" href="#"><span class="dash-nav-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></span><span>Finance</span></a>
-<a class="dash-nav-item" href="#"><span class="dash-nav-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span><span>Inbox</span></a>
-<a class="dash-nav-item" href="#"><span class="dash-nav-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></span><span>Settings</span></a>
-</nav>
-<div class="dash-footer"><span class="dash-shop-select">ALATA Demo • SG Store</span><button class="btn btn-ghost btn-sm">Switch Store</button></div>
-</aside>
+  <section class="section section-alt">
+    <div class="container">
+      <div class="split" data-reveal>
+        <div class="split-visual">
+          <div class="card inventory-visual" data-tilt>
+            <span class="eyebrow">Inventory pulse</span>
+            <h3>One catalogue. Several locations.</h3>
+            <div class="inventory-row"><span>Sandstone body wash</span><strong>In stock</strong><small>Singapore</small></div>
+            <div class="inventory-row"><span>Amber travel set</span><strong>Replenish</strong><small>Thailand</small></div>
+            <div class="inventory-row"><span>Soft cotton robe</span><strong>In stock</strong><small>Malaysia</small></div>
+            <div class="inventory-row"><span>Botanical candle</span><strong>Review</strong><small>Regional pool</small></div>
+            <p class="note">Illustrative inventory states, not live client data.</p>
+          </div>
+        </div>
+        <div>
+          <span class="eyebrow">02 / Inventory synchronisation</span>
+          <h2 class="section-title" data-split>Stock that stays <em>honest.</em></h2>
+          <p class="lead">Inventory should move at the speed of your business, not the speed of a spreadsheet refresh. ALATA helps keep product availability aligned across connected storefronts and fulfilment locations.</p>
+          <p>When a sale is made, stock is reconciled against the relevant pool. When a catalogue changes, listings can be updated with the right product information, variants, and media. When supply is constrained, the system helps surface the effect before unavailable products become avoidable customer friction.</p>
+          <div class="grid-2">
+            <div class="card">
+              <span class="card-index">01</span>
+              <h3>Channel-aware updates</h3>
+              <p>Keep supported storefronts informed of available stock and listing status, with platform-specific constraints taken into account.</p>
+            </div>
+            <div class="card">
+              <span class="card-index">02</span>
+              <h3>Pool visibility</h3>
+              <p>See inventory by product, variant, location, and channel to make clearer allocation decisions.</p>
+            </div>
+            <div class="card">
+              <span class="card-index">03</span>
+              <h3>Exception-led care</h3>
+              <p>Identify overselling risk, low-stock products, stalled variants, and mismatches that need a human check.</p>
+            </div>
+            <div class="card">
+              <span class="card-index">04</span>
+              <h3>Human oversight</h3>
+              <p>Automation handles the routine while your team approves important adjustments and resolves edge cases.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<main class="dash-main">
-<header class="dash-header">
-<div class="dash-breadcrumb"><span>Dashboard</span><span class="sep" aria-hidden="true">/</span><span>Overview</span></div>
-<div class="dash-actions"><button class="btn btn-ghost btn-sm">Export</button><button class="btn btn-primary btn-sm">Create Listing</button></div>
-</header>
+  <section class="section">
+    <div class="container">
+      <div class="split" data-reveal>
+        <div>
+          <span class="eyebrow">03 / Order routing</span>
+          <h2 class="section-title" data-split>The right fulfilment path, <em>chosen early.</em></h2>
+          <p class="lead">Orders can begin as a simple checkout, then become a chain of handoffs: warehouse pick, pack, cross-border movement, local delivery, and customer update. ALATA helps organise that journey around clear rules.</p>
+          <p>Routing can reflect the order destination, product characteristics, available inventory, service promise, and operational capability. Rules can be reviewed by people, exceptions can be escalated, and fulfilment partners can receive a consistent brief. The aim is not complexity for its own sake; it is a process your team can understand.</p>
+          <div class="process">
+            <div class="process-step"><span class="step-num">01</span><div><h3>Capture</h3><p>Receive order details in a normalised format across connected channels.</p></div></div>
+            <div class="process-step"><span class="step-num">02</span><div><h3>Decide</h3><p>Apply agreed routing rules for stock, destination, product, and service level.</p></div></div>
+            <div class="process-step"><span class="step-num">03</span><div><h3>Dispatch</h3><p>Send a clear fulfilment brief and track the next operational milestone.</p></div></div>
+            <div class="process-step"><span class="step-num">04</span><div><h3>Reconcile</h3><p>Bring fulfilment charges and order outcomes back into the commercial view.</p></div></div>
+          </div>
+        </div>
+        <div class="split-visual">
+          <div class="card routing-card" data-tilt>
+            <span class="eyebrow">Routing brief / Illustrative</span>
+            <h3>Order OR-2048</h3>
+            <div class="routing-step complete"><span>✓</span><div><strong>Order received</strong><small>Channel and payment state confirmed</small></div></div>
+            <div class="routing-line"></div>
+            <div class="routing-step active"><span>2</span><div><strong>Inventory matched</strong><small>Eligible fulfilment node identified</small></div></div>
+            <div class="routing-line"></div>
+            <div class="routing-step"><span>3</span><div><strong>Pack and dispatch</strong><small>Instructions shared with fulfilment partner</small></div></div>
+            <div class="routing-line"></div>
+            <div class="routing-step"><span>4</span><div><strong>Delivery and close</strong><small>Customer update and final settlement</small></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<div class="dash-kpi" role="region" aria-label="Key performance indicators">
-<div class="kpi-card"><span class="kpi-label">Gross Merchandise Value</span><span class="kpi-value" data-count="1280000" data-prefix="S$" data-suffix="">0</span><span class="kpi-trend positive"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5"/></svg>+12.4% vs last month</span></div>
-<div class="kpi-card"><span class="kpi-label">Orders (30d)</span><span class="kpi-value" data-count="48720" data-suffix="">0</span><span class="kpi-trend positive"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5"/></svg>+8.1%</span></div>
-<div class="kpi-card"><span class="kpi-label">Active SKUs</span><span class="kpi-value" data-count="12450" data-suffix="">0</span><span class="kpi-trend neutral"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/></svg>+2.3%</span></div>
-<div class="kpi-card"><span class="kpi-label">Sync Health</span><span class="kpi-value">99.97%</span><span class="kpi-trend positive"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5"/></svg>0.02% improvement</span></div>
-</div>
+  <section class="section section-dark">
+    <div class="container">
+      <div data-reveal>
+        <span class="eyebrow">04 / AI with a purpose</span>
+        <h2 class="section-title" data-split>Useful assistance.<br><em>Human judgement.</em></h2>
+        <p class="lead">AI can make the first draft faster. It cannot decide what your brand should mean. Our tools are designed to support the people closest to the work, making routine tasks quicker while keeping review and accountability in human hands.</p>
+      </div>
+      <div class="grid-4">
+        <article class="card" data-reveal>
+          <span class="card-index">01</span>
+          <h3>Listing copy</h3>
+          <p>Generate first-draft product titles, descriptions, and channel-ready variations from approved product information, then refine the voice, accuracy, and market relevance.</p>
+          <span class="badge">Assisted creation</span>
+        </article>
+        <article class="card" data-reveal>
+          <span class="card-index">02</span>
+          <h3>Pricing guidance</h3>
+          <p>Explore price positions against provided costs, margin goals, and current catalogue context. Promotions and price changes remain subject to approval.</p>
+          <span class="badge">Decision support</span>
+        </article>
+        <article class="card" data-reveal>
+          <span class="card-index">03</span>
+          <h3>Demand forecasting</h3>
+          <p>Review directional signals that help teams prepare stock, content, and campaign activity, with assumptions and data limitations made visible.</p>
+          <span class="badge">Planning signal</span>
+        </article>
+        <article class="card" data-reveal>
+          <span class="card-index">04</span>
+          <h3>Chat assist</h3>
+          <p>Help customer-service teams find order details, draft replies, and prepare issue summaries without losing sight of the customer’s actual need.</p>
+          <span class="badge">Agent support</span>
+        </article>
+      </div>
+      <div class="ai-note" data-reveal>
+        <span class="eyebrow">A practical AI standard</span>
+        <p>We prioritise explainable inputs, restricted use of sensitive data, reviewable outputs, and clear escalation paths. AI is never used to invent product claims, customer facts, financial records, or performance results.</p>
+      </div>
+    </div>
+  </section>
 
-<div class="dash-grid">
-<section class="dash-chart" aria-label="GMV trend chart">
-<h3 class="chart-title">GMV Trend <span class="chart-period">Last 30 days</span></h3>
-<div class="chart-bars" role="img" aria-label="Bar chart showing daily GMV over 30 days, trending upward from S$32K to S$58K">
-<div class="chart-bar" style="--height: 45%" title="Day 1: S$32,400"></div>
-<div class="chart-bar" style="--height: 52%" title="Day 2: S$37,200"></div>
-<div class="chart-bar" style="--height: 48%" title="Day 3: S$34,600"></div>
-<div class="chart-bar" style="--height: 61%" title="Day 4: S$44,100"></div>
-<div class="chart-bar" style="--height: 55%" title="Day 5: S$39,800"></div>
-<div class="chart-bar" style="--height: 68%" title="Day 6: S$49,200"></div>
-<div class="chart-bar" style="--height: 72%" title="Day 7: S$52,100"></div>
-<div class="chart-bar" style="--height: 58%" title="Day 8: S$41,900"></div>
-<div class="chart-bar" style="--height: 65%" title="Day 9: S$47,000"></div>
-<div class="chart-bar" style="--height: 78%" title="Day 10: S$56,300"></div>
-<div class="chart-bar" style="--height: 62%" title="Day 11: S$44,800"></div>
-<div class="chart-bar" style="--height: 71%" title="Day 12: S$51,400"></div>
-<div class="chart-bar" style="--height: 83%" title="Day 13: S$58,200"></div>
-<div class="chart-bar" style="--height: 69%" title="Day 14: S$49,700"></div>
-<div class="chart-bar" style="--height: 76%" title="Day 15: S$54,800"></div>
-<div class="chart-bar" style="--height: 54%" title="Day 16: S$39,100"></div>
-<div class="chart-bar" style="--height: 80%" title="Day 17: S$57,600"></div>
-<div class="chart-bar" style="--height: 85%" title="Day 18: S$61,200"></div>
-<div class="chart-bar" style="--height: 73%" title="Day 19: S$52,800"></div>
-<div class="chart-bar" style="--height: 79%" title="Day 20: S$56,900"></div>
-<div class="chart-bar" style="--height: 66%" title="Day 21: S$47,500"></div>
-<div class="chart-bar" style="--height: 82%" title="Day 22: S$59,100"></div>
-<div class="chart-bar" style="--height: 88%" title="Day 23: S$63,400"></div>
-<div class="chart-bar" style="--height: 74%" title="Day 24: S$53,600"></div>
-<div class="chart-bar" style="--height: 81%" title="Day 25: S$58,300"></div>
-<div class="chart-bar" style="--height: 90%" title="Day 26: S$64,800"></div>
-<div class="chart-bar" style="--height: 77%" title="Day 27: S$55,400"></div>
-<div class="chart-bar" style="--height: 84%" title="Day 28: S$60,500"></div>
-<div class="chart-bar" style="--height: 92%" title="Day 29: S$66,200"></div>
-<div class="chart-bar" style="--height: 95%" title="Day 30: S$68,400"></div>
-</div>
-<div class="chart-legend"><span class="legend-item"><span class="legend-color tiktok"></span>TikTok Shop</span><span class="legend-item"><span class="legend-color shopee"></span>Shopee</span><span class="legend-item"><span class="legend-color lazada"></span>Lazada</span></div>
-</section>
+  <section class="section">
+    <div class="container">
+      <div data-reveal>
+        <span class="eyebrow">05 / Integrations</span>
+        <h2 class="section-title" data-split>Connected to the work, <em>not just the shop.</em></h2>
+        <p class="lead">Technology becomes more useful when it connects to the tools your teams already rely on. ALATA is designed as an operating layer across marketplaces, fulfilment, payments, and internal workflows.</p>
+      </div>
+      <div class="grid-3">
+        <article class="platform-card" data-reveal>
+          <span class="platform-mark">S</span>
+          <h3>Marketplaces</h3>
+          <p>Connect commerce operations for TikTok Shop, Shopee, and Lazada.</p>
+          <small>Partnership status: to be confirmed</small>
+        </article>
+        <article class="platform-card" data-reveal>
+          <span class="platform-mark">F</span>
+          <h3>Fulfilment partners</h3>
+          <p>Coordinate order briefs, dispatch status, inventory movements, and delivery milestones through agreed integration routes.</p>
+        </article>
+        <article class="platform-card" data-reveal>
+          <span class="platform-mark">P</span>
+          <h3>Payments and finance</h3>
+          <p>Bring payment records, fees, refunds, and COD reconciliation into a more consistent view for finance review.</p>
+        </article>
+        <article class="platform-card" data-reveal>
+          <span class="platform-mark">W</span>
+          <h3>Business systems</h3>
+          <p>Exchange catalogue, order, and inventory data with approved ERP, PIM, CRM, and reporting systems where supported.</p>
+        </article>
+        <article class="platform-card" data-reveal>
+          <span class="platform-mark">A</span>
+          <h3>Analytics destinations</h3>
+          <p>Prepare structured exports and approved data feeds for internal reporting, planning, and cross-functional review.</p>
+        </article>
+        <article class="platform-card" data-reveal>
+          <span class="platform-mark">+</span>
+          <h3>Custom pathways</h3>
+          <p>Document bespoke workflows and exchange requirements before implementation, with scope, ownership, and maintenance agreed clearly.</p>
+        </article>
+      </div>
+      <div class="note" data-reveal>Available integrations, data fields, and refresh intervals vary by client configuration, market, platform access, and third-party service. Integration availability should be confirmed during discovery.</div>
+    </div>
+  </section>
 
-<section class="dash-table" aria-label="Top performing SKUs table">
-<h3 class="chart-title">Top SKUs by Revenue <span class="chart-period">This week</span></h3>
-<div class="table-wrapper">
-<table>
-<thead>
-<tr><th scope="col">SKU</th><th scope="col">Product</th><th scope="col">Platform</th><th scope="col">Stock</th><th scope="col">Units Sold</th><th scope="col">Revenue</th><th scope="col">Margin</th><th scope="col">Status</th></tr>
-</thead>
-<tbody>
-<tr><td>AL-SG-001</td><td>Wireless ANC Headphones Pro</td><td><span class="platform-badge tiktok">TikTok</span></td><td>234</td><td>1,247</td><td>S$187,050</td><td><span class="margin good">42%</span></td><td><span class="status healthy">Healthy</span></td></tr>
-<tr><td>AL-SG-042</td><td>UV-C Sanitiser Wand</td><td><span class="platform-badge shopee">Shopee</span></td><td>89</td><td>892</td><td>S$89,200</td><td><span class="margin good">38%</span></td><td><span class="status warning">Low Stock</span></td></tr>
-<tr><td>AL-MY-018</td><td>Portable Espresso Maker</td><td><span class="platform-badge lazada">Lazada</span></td><td>156</td><td>654</td><td>S$78,480</td><td><span class="margin good">35%</span></td><td><span class="status healthy">Healthy</span></td></tr>
-<tr><td>AL-SG-009</td><td>Smart Sleep Tracker Ring</td><td><span class="platform-badge tiktok">TikTok</span></td><td>412</td><td>523</td><td>S$65,375</td><td><span class="margin good">45%</span></td><td><span class="status healthy">Healthy</span></td></tr>
-<tr><td>AL-PH-033</td><td>Foldable Mechanical Keyboard</td><td><span class="platform-badge shopee">Shopee</span></td><td>67</td><td>418</td><td>S$54,340</td><td><span class="margin warn">28%</span></td><td><span class="status warning">Low Stock</span></td></tr>
-<tr><td>AL-ID-007</td><td>Magnetic Wireless Charger 3-in-1</td><td><span class="platform-badge lazada">Lazada</span></td><td>203</td><td>389</td><td>S$46,680</td><td><span class="margin good">39%</span></td><td><span class="status healthy">Healthy</span></td></tr>
-<tr><td>AL-SG-021</td><td>Compact Air Purifier</td><td><span class="platform-badge tiktok">TikTok</span></td><td>12</td><td>298</td><td>S$41,720</td><td><span class="margin warn">31%</span></td><td><span class="status critical">Critical</span></td></tr>
-<tr><td>AL-TH-014</td><td>Ergonomic Laptop Stand</td><td><span class="platform-badge shopee">Shopee</span></td><td>287</td><td>267</td><td>S$32,040</td><td><span class="margin good">40%</span></td><td><span class="status healthy">Healthy</span></td></tr>
-</tbody>
-</table>
-</div>
-</section>
-</div>
+  <section class="section section-alt">
+    <div class="container">
+      <div class="split" data-reveal>
+        <div>
+          <span class="eyebrow">06 / Security and data principles</span>
+          <h2 class="section-title" data-split>Trust is part of the <em>infrastructure.</em></h2>
+          <p class="lead">Commerce data can be commercially sensitive, operationally important, and personal. We treat its stewardship as a core product requirement—not an add-on.</p>
+          <p>ALATA’s operating approach begins with collecting only what is needed for agreed commercial and service purposes. Access should be limited, attributable, and reviewed. Sensitive information should be protected in transit and at rest. Operational teams should be able to see where data comes from, what has changed, and when an issue requires escalation.</p>
+        </div>
+        <div class="split-visual">
+          <div class="grid-2 security-grid">
+            <div class="card"><span class="card-index">01</span><h3>Least privilege</h3><p>Grant access according to role and responsibility, with regular review and prompt removal when it is no longer needed.</p></div>
+            <div class="card"><span class="card-index">02</span><h3>Encryption</h3><p>Use appropriate technical controls to protect data during transfer and storage, including sensitive credentials.</p></div>
+            <div class="card"><span class="card-index">03</span><h3>Auditability</h3><p>Maintain appropriate logs of administrative and operational actions to support review and investigation.</p></div>
+            <div class="card"><span class="card-index">04</span><h3>Data minimisation</h3><p>Limit collection and retention to information with a clear business purpose and an agreed lifecycle.</p></div>
+            <div class="card"><span class="card-index">05</span><h3>Responsible AI</h3><p>Restrict automated outputs to approved use cases and keep consequential decisions subject to human review.</p></div>
+            <div class="card"><span class="card-index">06</span><h3>Resilient operations</h3><p>Prepare backup, recovery, vendor, and incident processes proportionate to the importance of the service.</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="note" data-reveal>Specific certifications, contractual commitments, hosting locations, retention periods, and incident response timelines should be confirmed during due diligence. This page describes product principles and is not a technical assurance report.</div>
+    </div>
+  </section>
 
-<div class="dash-split">
-<section class="dash-panel" aria-label="Platform health">
-<h3 class="panel-title">Platform Connection Health</h3>
-<div class="health-grid">
-<div class="health-item"><div class="health-icon tiktok"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.545,10.239v3.821h5.445l-0.712,4.19H14.38v11.717h-4.141v-11.717H7.113L7.825,14.06H2.574V10.239h5.259L12.545,10.239z"/></svg></div><div class="health-info"><span class="health-name">TikTok Shop SG</span><span class="health-status"><span class="status-dot ok"></span>Connected · Synced 2m ago</span></div></div>
-<div class="health-item"><div class="health-icon shopee"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.002 0C5.375 0 0 5.373 0 11.998c0 6.625 5.375 12 12.002 12 6.627 0 12-5.375 12-12C24.002 5.373 18.629 0 12.002 0zm5.261 17.226c-.147.327-.44.495-.773.346-2.47-1.11-4.868-2.511-7.215-4.344-.293-.229-.379-.622-.189-.934.39-.641 1.06-1.087 1.788-1.298 1.692-.488 3.294-.595 5.206-.373 1.337.154 2.54.575 3.499 1.392.489.418.646 1.144.336 1.666zm-7.53-6.263c0-3.124 2.545-5.668 5.677-5.668 3.13 0 5.675 2.544 5.675 5.668 0 3.124-2.545 5.668-5.675 5.668-3.132 0-5.677-2.544-5.677-5.668z"/></svg></div><div class="health-info"><span class="health-name">Shopee SG</span><span class="health-status"><span class="status-dot ok"></span>Connected · Synced 1m ago</span></div></div>
-<div class="health-item"><div class="health-icon lazada"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm-1.25-7.5h2.5v-3h-2.5v3zm0-4.5h2.5V6h-2.5v2.5z"/></svg></div><div class="health-info"><span class="health-name">Lazada SG</span><span class="health-status"><span class="status-dot ok"></span>Connected · Synced 3m ago</span></div></div>
-<div class="health-item"><div class="health-icon tiktok"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.545,10.239v3.821h5.445l-0.712,4.19H14.38v11.717h-4.141v-11.717H7.113L7.825,14.06H2.574V10.239h5.259L12.545,10.239z"/></svg></div><div class="health-info"><span class="health-name">TikTok Shop MY</span><span class="health-status"><span class="status-dot ok"></span>Connected · Synced 5m ago</span></div></div>
-<div class="health-item"><div class="health-icon shopee"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.002 0C5.375 0 0 5.373 0 11.998c0 6.625 5.375 12 12.002 12 6.627 0 12-5.375 12-12C24.002 5.373 18.629 0 12.002 0zm5.261 17.226c-.147.327-.44.495-.773.346-2.47-1.11-4.868-2.511-7.215-4.344-.293-.229-.379-.622-.189-.934.39-.641 1.06-1.087 1.788-1.298 1.692-.488 3.294-.595 5.206-.373 1.337.154 2.54.575 3.499 1.392.489.418.646 1.144.336 1.666zm-7.53-6.263c0-3.124 2.545-5.668 5.677-5.668 3.13 0 5.675 2.544 5.675 5.668 0 3.124-2.545 5.668-5.675 5.668-3.132 0-5.677-2.544-5.677-5.668z"/></svg></div><div class="health-info"><span class="health-name">Shopee MY</span><span class="health-status"><span class="status-dot warn"></span>Rate limited · Retry in 45s</span></div></div>
-<div class="health-item"><div class="health-icon lazada"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm-1.25-7.5h2.5v-3h-2.5v3zm0-4.5h2.5V6h-2.5v2.5z"/></svg></div><div class="health-info"><span class="health-name">Lazada MY</span><span class="health-status"><span class="status-dot ok"></span>Connected · Synced 2m ago</span></div></div>
-</div>
-</section>
+  <section class="section">
+    <div class="container">
+      <div class="split" data-reveal>
+        <div class="split-visual">
+          <div class="card workflow-card">
+            <span class="eyebrow">A considered operating rhythm</span>
+            <h3>Monday: Portfolio review</h3>
+            <p>Scan commercial movement, stock exceptions, service issues, and campaign activity.</p>
+            <h3>Midweek: Focused action</h3>
+            <p>Review content drafts, pricing scenarios, fulfilment delays, and inbound stock.</p>
+            <h3>Month-end: Clearer settlement</h3>
+            <p>Reconcile sales, fees, refunds, and COD records with the finance team.</p>
+          </div>
+        </div>
+        <div>
+          <span class="eyebrow">07 / Built around your team</span>
+          <h2 class="section-title" data-split>Technology should make the day <em>feel lighter.</em></h2>
+          <p class="lead">A strong operating layer does not ask every team to become a data specialist. It presents the right amount of information, at the right moment, in language that supports action.</p>
+          <p>That can mean a merchant lead seeing a stock risk before a campaign starts, a customer-service agent finding an order in seconds, or a finance colleague tracing a deduction without a maze of spreadsheets. We design around these moments, then refine the system through real workflows and regular review.</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="contact.html">Discuss your workflow</a>
+            <a class="btn btn-ghost" href="solutions.html">Explore our solutions</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<section class="dash-panel" aria-label="Recent activity feed">
-<h3 class="panel-title">Live Activity Feed</h3>
-<div class="activity-list">
-<div class="activity-item"><div class="activity-dot tiktok"></div><div class="activity-content"><span class="activity-text"><strong>TikTok Shop SG</strong> — 247 orders imported</span><span class="activity-time">12 seconds ago</span></div></div>
-<div class="activity-item"><div class="activity-dot shopee"></div><div class="activity-content"><span class="activity-text"><strong>Shopee MY</strong> — Inventory sync completed (12,450 SKUs)</span><span class="activity-time">45 seconds ago</span></div></div>
-<div class="activity-item"><div class="activity-dot lazada"></div><div class="activity-content"><span class="activity-text"><strong>Lazada SG</strong> — Price update pushed for 312 SKUs</span><span class="activity-time">1 minute ago</span></div></div>
-<div class="activity-item"><div class="activity-dot ai"></div><div class="activity-content"><span class="activity-text"><strong>AI Listing Generator</strong> — Created 18 new product descriptions</span><span class="activity-time">2 minutes ago</span></div></div>
-<div class="activity-item"><div class="activity-dot tiktok"></div><div class="activity-content"><span class="activity-text"><strong>TikTok Shop MY</strong> — Live session started: "Tech Tuesday"</span><span class="activity-time">3 minutes ago</span></div></div>
-<div class="activity-item"><div class="activity-dot shopee"></div><div class="activity-content"><span class="activity-text"><strong>Shopee SG</strong> — Flash deal approved: Wireless ANC Headphones</span><span class="activity-time">5 minutes ago</span></div></div>
-<div class="activity-item"><div class="activity-dot ai"></div><div class="activity-content"><span class="activity-text"><strong>Demand Forecast</strong> — Updated predictions for Q2 2026</span><span class="activity-time">8 minutes ago</span></div></div>
-<div class="activity-item"><div class="activity-dot lazada"></div><div class="activity-content"><span class="activity-text"><strong>Lazada MY</strong> — Return processed: Order #LZ-MY-88472</span><span class="activity-time">12 minutes ago</span></div></div>
-</div>
-</section>
-</div>
+  <section class="section section-alt">
+    <div class="container">
+      <div data-reveal>
+        <span class="eyebrow">Technology questions</span>
+        <h2 class="section-title" data-split>A few useful <em>answers.</em></h2>
+      </div>
+      <div class="faq">
+        <details class="faq-item">
+          <summary>Does the dashboard replace our marketplace tools?</summary>
+          <p>No. The dashboard is intended to provide a consistent commercial and operational view across channels. Each marketplace may still offer its own native tools for functions that require platform-level access. ALATA can complement those tools with normalised information, workflow support, and a coordinated view of work in progress.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How is inventory synchronisation handled?</summary>
+          <p>Inventory is reconciled according to the products, variants, locations, and channels included in each client’s agreed scope. The operating process should include checks for exceptions such as overselling risk, delayed stock feeds, manual adjustments, and platform-specific listing constraints.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can the AI tools publish content or change prices automatically?</summary>
+          <p>AI tools are designed primarily to assist. Generated listing copy, pricing guidance, forecasts, and customer-service drafts can be reviewed by the appropriate team before publication or implementation. Approval policies can be defined around your operating requirements.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What information is required to begin an integration?</summary>
+          <p>Discovery usually covers channel access, catalogue structure, order volumes, fulfilment locations, finance processes, service workflows, and reporting needs. We then map data fields, ownership, update frequency, exception handling, and any third-party dependencies before implementation begins.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Where is customer and commerce data hosted?</summary>
+          <p>Hosting and data residency arrangements depend on the services, vendors, and markets included in a client’s solution. These details should be documented during due diligence rather than assumed. Contact us to discuss the appropriate requirements for your business.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can ALATA support one market before expanding?</summary>
+          <p>Yes. A phased approach can be useful for brands that want to establish a repeatable operating rhythm before adding more channels or markets. The scope, sequence, and resource requirements should be agreed after reviewing your catalogue, order profile, and internal capacity.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section cta-band">
+    <div class="container">
+      <div data-reveal>
+        <span class="eyebrow">Make the next move</span>
+        <h2 class="section-title" data-split>Let’s make cross-border commerce <em>feel closer.</em></h2>
+        <p class="lead">Tell us where you are today, where you would like to grow, and what your team needs to operate with more clarity. We will start with the workflow—not the tool.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="contact.html">Talk to us</a>
+          <a class="btn btn-ghost" href="markets.html">Explore markets</a>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
-</div>
-<p class="note">Illustrative dashboard mock-up. Data shown is simulated for demonstration purposes only.</p>
-</div>
-</section>
-
-<section class="section section-alt">
-<div class="container">
-<span class="eyebrow">03 / INVENTORY</span>
-<h2 class="section-title" data-split>Real-time inventory synchronisation</h2>
-<p class="lead">Single source of truth across every warehouse, platform, and sales channel. Sub-second propagation. Zero oversell guarantee.</p>
-
-<div class="grid-3">
-<article class="card" data-tilt data-reveal>
-<span class="card-index">01</span>
-<h3>Multi-source aggregation</h3>
-<p>Consolidate stock from owned warehouses, 3PL partners, FBT/Shopee Xpress/Lazada Logistics, and vendor-managed inventory into one virtual pool. Configurable allocation rules per platform, market, and channel.</p>
-</article>
-<article class="card" data-tilt data-reveal>
-<span class="card-index">02</span>
-<h3>Event-driven sync engine</h3>
-<p>Kafka-backed event pipeline processes order creation, cancellation, return, and warehouse receipt events in < 500ms median latency. Idempotent consumers guarantee exactly-once inventory deduction.</p>
-</article>
-<article class="card" data-tilt data-reveal>
-<span class="card-index">03</span>
-<h3>Platform-native buffers</h3>
-<p>Automatically maintains platform-specific safety buffers (TikTok Shop: 2%, Shopee: 3%, Lazada: 2%) and enforces per-SKU minimum display quantities to prevent race conditions during flash sales.</p>
-</article>
-<article class="card" data-tilt data-reveal>
-<span class="card-index">04</span>
-<h3>Bundle &amp; kit decomposition</h3>
-<p>Virtual bundles and multi-component kits explode into component-level reservations at order time. Supports nested bundles, pre-pack configurations, and dynamic kit assembly from shared component pools.</p>
-</article>
-<article class="card" data-tilt data-reveal>
-<span class="card-index">05</span>
-<h3>Cross-dock &amp; transfer routing</h3>
-<p>Inter-warehouse transfer suggestions generated nightly based on 14-day demand forecasts. Auto-creates transfer orders when regional stock falls below dynamic reorder points.</p>
-</article>
-<article class="card" data-tilt data-reveal>
-<span class="card-index">06</span>
-<h3>Audit trail &amp; reconciliation</h3>
-<p>Immutable event log with cryptographic hashing. Daily automated reconciliation against platform-reported quantities and warehouse WMS snapshots. Drift alerts routed to Slack and PagerDuty.</p>
-</article>
-</div>
-</div>
-</section>
-
-<section class="section section-dark">
-<div class="container">
-<span class="eyebrow">04 / ORDER ROUTING</span>
-<h2 class="section-title" data-split>Intelligent order orchestration</h2>
-<p class="lead">Every order evaluated against real-time constraints — stock location, SLA, shipping cost, platform rules, and customer promise — to determine the optimal fulfilment path.</p>
-
-<div class="process" data-reveal>
-<div class="process-step">
-<span class="step-num">01</span>
-<div class="step-content">
-<h3>Ingestion &amp; normalisation</h3>
-<p>Orders pulled via platform webhooks and scheduled API polls. Normalised into canonical schema with enriched buyer data, shipping tier, payment method, and promotional context.</p>
-</div>
-</div>
-<div class="process-step">
-<span class="step-num">02</span>
-<div class="step-content">
-<h3>Eligibility matrix</h3>
-<p>Evaluates warehouse proximity to delivery postcode, stock availability, platform SLA windows (TikTok: 24h, Shopee: 48h, Lazada: 48h), courier coverage, and special handling requirements (cold chain, hazmat, oversized).</p>
-</div>
-</div>
-<div class="process-step">
-<span class="step-num">03</span>
-<div class="step-content">
-<h3>Cost-optimised allocation</h3>
-<p>Solves constrained optimisation: minimise total landed cost (pick/pack + shipping + platform fee surcharges) subject to SLA and stock constraints. Uses pre-computed courier rate cards updated weekly.</p>
-</div>
-</div>
-<div class="process-step">
-<span class="step-num">04</span>
-<div class="step-content">
-<h3>Split &amp; merge logic</h3>
-<p>Multi-item orders automatically split across warehouses when beneficial. Partial fulfilment supported with pro-rata platform fee allocation. Merge window (15 min) combines orders to same address for single shipment.</p>
-</div>
-</div>
-<div class="process-step">
-<span class="step-num">05</span>
-<div class="step-content">
-<h3>Label generation &amp; handoff</h3>
-<p>Generates platform-compliant shipping labels, customs invoices (for cross-border), and packing slips. Pushes tracking numbers back to platforms via API within SLA. Integrates with Ninja Van, J&T, Janio, Kerry, and 12+ regional carriers.</p>
-</div>
-</div>
-<div class="process-step">
-<span class="step-num">06</span>
-<div class="step-content">
-<h3>Exception handling</h3>
-<p>Automated reroute on courier rejection, address failure, or stock discrepancy. Fallback to next-best warehouse with customer notification. Manual override queue for edge cases with full audit trail.</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-
-<section class="section section-alt">
-<div class="container">
-<span class="eyebrow">05 / AI TOOLS</span>
-<h2 class="section-title" data-split>AI-native commerce tooling</h2>
-<p class="lead">Fine-tuned models trained on Southeast Asian e-commerce patterns. Deployed within your data boundary. Human-in-the-loop by default.</p>
-
-<div class="grid-4">
-<article class="card" data-tilt data-reveal>
-<span class="card-index">01</span>
-<h3>Listing Copy Generator</h3>
-<p>Generates platform-optimised titles, bullet points, and long descriptions in EN, MS, ID, TH, VI, TL. Incorporates platform character limits, keyword density targets, and category-specific compliance rules. Trained on 2.3M high-converting SEA listings.</p>
-<ul class="feature-list">
-<li>SEO keyword injection per platform algorithm</li>
-<li>Tone profiles: Professional, Trendy, Trust-Building</li>
-<li>Auto-translation with cultural localisation</li>
-<li>Compliance flagging for restricted claims</li>
-<li>Bulk generation via CSV upload</li>
-<li>Human review workflow with diff view</li>
-</ul>
-</article>
-<article class="card" data-tilt data-reveal>
-<span class="card-index">02</span>
-<h3>Dynamic Pricing Engine</h3>
-<p>Reinforcement learning agent optimises price points per SKU per platform per hour. Inputs: competitor prices, inventory age, velocity curves, promotional calendar, platform fee structures, and target margin floors.</p>
-<ul class="feature-list">
-<li>Platform-specific fee &amp; voucher modelling</li>
-<li>Min/max guardrails with margin floor enforcement</li>
-<li>Competitor tracking across 3 platforms</li>
-<li>Flash sale &amp; campaign price scheduling</li>
-<li>Price elasticity estimation per category</li>
-<li>Rollback on conversion anomaly detection</li>
-</ul>
-</article>
-<article class="card" data-tilt data-reveal>
-<span class="card-index">03</span>
-<h3>Demand Forecasting</h3>
-<p>Temporal fusion transformers forecast 90-day demand at SKU×warehouse×platform granularity. Incorporates seasonality, platform events (11.11, 12.12, payday sales), marketing spend, and external signals (weather, holidays, trends).</p>
-<ul class="feature-list">
-<li>Probabilistic outputs (P10/P50/P90)</li>
-<li>New product cold-start via attribute embedding</li>
-<li>Promotional lift decomposition</li>
-<li>Cross-platform cannibalisation modelling</li>
-<li>Stock-out risk scoring per SKU</li>
-<li>Replenishment recommendation API</li>
-</ul>
-</article>
-<article class="card" data-tilt data-reveal>
-<span class="card-index">04</span>
-<h3>Chat Assist</h3>
-<p>RAG-powered agent handles 68% of inbound queries autonomously (illustrative target). Grounded in your product catalogue, order data, return policies, and brand voice guidelines. Escalates to human agents with full context summary.</p>
-<ul class="feature-list">
-<li>Multilingual: EN, MS, ID, TH, VI, TL, ZH</li>
-<li>Order status, returns, product FAQ, sizing</li>
-<li>Proactive shipping updates &amp; delay notices</li>
-<li>Sentiment detection &amp; priority routing</li>
-<li>Knowledge base auto-update from resolved tickets</li>
-<li>CSAT prediction &amp; coaching insights</li>
-</ul>
-</article>
-</div>
-
-<div class="note" style="margin-top: 32px;">AI performance metrics labelled "Illustrative targets" are based on internal benchmarking against synthetic datasets. Actual results vary by category, data quality, and configuration. All AI tools operate with human-in-the-loop oversight.</div>
-</div>
-</section>
-
-<section class="section section-dark">
-<div class="container">
-<span class="eyebrow">06 / INTEGRATIONS</span>
-<h2 class="section-title" data-split>Platform &amp; ecosystem connectivity</h2>
-<p class="lead">Deep, maintained integrations with every major Southeast Asian commerce platform, logistics provider, and enterprise system. API-first architecture with webhook redundancy.</p>
-
-<div class="grid-3">
-<div class="card" data-tilt data-reveal>
-<span class="card-index">01</span>
-<h3>TikTok Shop</h3>
-<p>Official TikTok Shop Partner. Full API coverage: Product, Order, Inventory, Logistics, Marketing, Affiliate, Live Shopping, and Finance endpoints. Webhook subscriptions for real-time events. Supports TikTok Shop Malaysia, Philippines, Thailand, Vietnam, Singapore, Indonesia.</p>
-</div>
-<div class="card" data-tilt data-reveal>
-<span class="card-index">02</span>
-<h3>Shopee</h3>
-<p>Shopee Official Solution Partner. Open Platform API v2: Product, Order, Logistics, Marketing, Chat, Shop, and Finance modules. Supports Shopee Mall, Preferred Seller, and Cross-Border (CBSC) workflows. Rate-limit aware request orchestration.</p>
-</div>
-<div class="card" data-tilt data-reveal>
-<span class="card-index">03</span>
-<h3>Lazada</h3>
-<p>Lazada Solution Provider. Open Platform API: Product, Order, Logistics, Finance, Promotion, and Return endpoints. Supports LazMall, Lazada Global Collection (LGC), and RedMart. OAuth2 token management with auto-refresh.</p>
-</div>
-<div class="card" data-tilt data-reveal>
-<span class="card-index">04</span>
-<h3>Logistics Network</h3>
-<p>Pre-built connectors: Ninja Van, J&T Express, Janio, Kerry Express, SPX, Flash Express, GoGoX, Lalamove, uParcel, and 8+ regional 3PLs. Unified label format, tracking webhook normalisation, and SLA monitoring dashboard.</p>
-</div>
-<div class="card" data-tilt data-reveal>
-<span class="card-index">05</span>
-<h3>ERP &amp; WMS</h3>
-<p>Native integrations: NetSuite, Xero, QuickBooks Online, SAP Business One, Odoo, DEAR Systems, Cin7, TradeGecko. Bi-directional sync for POs, GRNs, stock adjustments, COGS, and financial reconciliation.</p>
-</div>
-<div class="card" data-tilt data-reveal>
-<span class="card-index">06</span>
-<h3>Marketing &amp; Data</h3>
-<p>Meta CAPI, Google Ads Enhanced Conversions, TikTok Events API, Shopee Pixel, Lazada Affiliate. Customer Data Platform segment export (Segment, RudderStack). Data warehouse connectors: BigQuery, Snowflake, Redshift, ClickHouse.</p>
-</div>
-</div>
-
-<div class="logo-strip-placeholder" data-reveal>
-<div class="logo-placeholder">TikTok Shop Partner</div>
-<div class="logo-placeholder">Shopee Official Partner</div>
-<div class="logo-placeholder">Lazada Solution Provider</div>
-<div class="logo-placeholder">Ninja Van</div>
-<div class="logo-placeholder">J&T Express</div>
-<div class="logo-placeholder">Janio</div>
-<div class="logo-placeholder">NetSuite</div>
-<div class="logo-placeholder">Xero</div>
-<div class="logo-placeholder">BigQuery</div>
-<p class="note" style="margin-top: 16px; text-align: center;">Client logos coming soon. Platform badges indicate partnership status, not endorsement.</p>
-</div>
-</div>
-</section>
-
-<section class="section section-alt">
-<div class="container">
-<span class="eyebrow">07 / SECURITY &amp; DATA</span>
-<h2 class="section-title" data-split>Security &amp; data principles</h2>
-<p class="lead">Commerce data is sensitive. We treat it as such. Architecture, processes, and culture aligned to protect merchant and consumer data at every layer.</p>
-
-<div class="grid-2">
-<div class="split" data-reveal>
-<div class="split-text">
-<h3>Data minimisation &amp; purpose limitation</h3>
-<p>We collect only what is necessary to operate the platform: OAuth tokens (encrypted at rest), order and product data for synchronisation, and anonymised usage telemetry. No consumer PII stored beyond what platforms require for fulfilment. Data retention policies enforced automatically: order data 24 months, logs 90 days, telemetry 13 months.</p>
-</div>
-<div class="split-visual">
-<div class="parallax-layer" data-speed="0.15" aria-hidden="true">
-<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="400" height="300" fill="#0c0d10" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
-<rect x="40" y="40" width="160" height="100" rx="8" fill="rgba(127,212,255,0.06)" stroke="rgba(127,212,255,0.15)" stroke-width="1"/>
-<text x="120" y="105" text-anchor="middle" fill="#7FD4FF" font-family="Unbounded" font-size="11" font-weight="600" letter-spacing="0.08em">ENCRYPTED TOKEN STORE</text>
-<rect x="200" y="40" width="160" height="100" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-<text x="280" y="105" text-anchor="middle" fill="#a9adb5" font-family="Unbounded" font-size="11" font-weight="600" letter-spacing="0.08em">ORDER DATA</text>
-<rect x="40" y="160" width="320" height="100" rx="8" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
-<text x="200" y="225" text-anchor="middle" fill="#a9adb5" font-family="Unbounded" font-size="11" font-weight="600" letter-spacing="0.08em">ANONYMISED TELEMETRY</text>
-<line x1="120" y1="140" x2="120" y2="160" stroke="rgba(127,212,255,0.2)" stroke-width="1" stroke-dasharray="4 4"/>
-<line x1="280" y1="140" x2="280" y2="160" stroke="rgba(127,212,255,0.2)" stroke-width="1" stroke-dasharray="4 4"/>
-</svg>
-</div>
-</div>
-</div>
-
-<div class="split" data-reveal>
-<div class="split-visual">
-<div class="parallax-layer" data-speed="0.15" aria-hidden="true">
-<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="400" height="300" fill="#0c0d10" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
-<circle cx="200" cy="150" r="80" fill="none" stroke="rgba(127,212,255,0.15)" stroke-width="1"/>
-<circle cx="200" cy="150" r="50" fill="none" stroke="rgba(127,212,255,0.25)" stroke-width="1.5"/>
-<circle cx="200" cy="150" r="20" fill="#7FD4FF" opacity="0.15"/>
-<text x="200" y="155" text-anchor="middle" fill="#7FD4FF" font-family="Unbounded" font-size="10" font-weight="600" letter-spacing="0.08em">ZERO TRUST</text>
-<g stroke="rgba(127,212,255,0.3)" stroke-width="1">
-<line x1="200" y1="70" x2="200" y2="100"/><line x1="200" y1="200" x2="200" y2="230"/><line x1="70" y1="150" x2="100" y2="150"/><line x1="300" y1="150" x2="330" y2="150"/>
-<line x1="115" y1="115" x2="140" y2="140"/><line x1="260" y1="140" x2="285" y2="165"/><line x1="115" y1="185" x2="140" y2="160"/><line x1="260" y1="115" x2="285" y2="140"/>
-</g>
-</svg>
-</div>
-</div>
-<div class="split-text">
-<h3>Zero-trust architecture</h3>
-<p>All internal communication mutual TLS. Service mesh (Istio) enforces least-privilege policies. No implicit trust zones. Database access via short-lived certificates. Secrets managed in HashiCorp Vault with automatic rotation. Employee access via SSO + hardware keys, just-in-time elevation with approval workflow.</p>
-</div>
-</div>
-</div>
-
-<div class="grid-3" style="margin-top: 48px;">
-<article class="card" data-tilt data-reveal>
-<span class="card-index">01</span>
-<h3>Encryption</h3>
-<p>AES-256-GCM at rest (Cloud KMS managed keys). TLS 1.3 in transit with perfect forward secrecy. Field-level encryption for OAuth tokens, API keys, and PII. Key rotation every 90 days.</p>
-</article>
-<article class="card" data-tilt data-reveal>
-<span class="card-index">02</span>
-<h3>Compliance</h3>
-<p>SOC 2 Type II (in progress). PDPA Singapore compliant. ISO 27001 aligned controls. Platform-specific data processing addenda with TikTok, Shopee, Lazada. Cross-border transfer mechanisms for MY, PH, TH, ID, VN.</p>
-</article>
-<article class="card" data-tilt data-reveal>
-<span class="card-index">03</span>
-<h3>Incident response</h3>
-<p>24/7 on-call rotation. Mean time to acknowledge < 15 min. Automated containment playbooks for credential leak, data exposure, and platform API compromise. Post-incident reviews published internally within 5 business days.</p>
-</article>
-<article class="card" data-tilt data-reveal>
-<span class="card-index">04</span>
-<h3>Penetration testing</h3>
-<p>Annual third-party penetration test (CREST certified). Continuous automated scanning in CI/CD. Bug bounty programme via HackerOne. Critical findings remediated within 72 hours, high within 7 days.</p>
-</article>
-<article class="card" data-tilt data-reveal>
-<span class="card-index">05</span>
-<h3>Business continuity</h3>
-<p>Multi-AZ deployment in Singapore (AWS ap-southeast-1) with warm standby in Sydney (ap-southeast-2). RPO < 1 min, RTO < 15 min for core sync services. Quarterly failover drills. Platform webhook replay capability for 72h.</p>
-</article>
-<article class="card" data-tilt data-reveal>
-<span class="card-index">06</span>
-<h3>Vendor risk</h3>
-<p>All subprocessors assessed via SIG questionnaire. DPAs in place. Annual re-assessment. Current subprocessors: AWS, Cloudflare, SendGrid, Twilio, Segment, HackerOne, PagerDuty, Slack, Atlassian.</p>
-</article>
-</div>
-</div>
-</section>
-
-<section class="cta-band" data-reveal>
-<div class="container">
-<div class="cta-content">
-<h2 class="cta-title">Ready to see the platform in action?</h2>
-<p class="cta-lead">Book a technical walkthrough with our solutions engineering team. We'll show you the dashboard, discuss your integration requirements, and map out a pilot timeline.</p>
-<a class="btn btn-primary" href="contact.html">Request a demo</a>
-</div>
-</div>
-</section>
-</main>
-
-<footer class="site-footer">
-<div class="container">
-<div class="footer-top">
-<div class="footer-brand">
-<img src="assets/logo.svg" alt="ALATA" width="150" height="18">
-<p>Winged commerce for Southeast Asia.</p>
-</div>
-<div class="footer-links">
-<nav aria-label="Solutions">
-<h4>Solutions</h4>
-<ul>
-<li><a href="solutions.html#setup">Shop Setup &amp; Onboarding</a></li>
-<li><a href="solutions.html#catalog">Catalog Management</a></li>
-<li><a href="solutions.html#live">Live Commerce Operations</a></li>
-<li><a href="solutions.html#ads">Performance Advertising</a></li>
-<li><a href="solutions.html#fulfilment">Fulfilment &amp; Logistics</a></li>
-<li><a href="solutions.html#service">Customer Service</a></li>
-<li><a href="solutions.html#analytics">Business Intelligence</a></li>
-<li><a href="solutions.html#finance">Financial Operations</a></li>
-</ul>
-</nav>
-<nav aria-label="Company">
-<h4>Company</h4>
-<ul>
-<li><a href="about.html">About ALATA</a></li>
-<li><a href="careers.html">Careers</a></li>
-<li><a href="insights.html">Insights</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
-</nav>
-<nav aria-label="Resources">
-<h4>Resources</h4>
-<ul>
-<li><a href="platforms.html">Platforms</a></li>
-<li><a href="markets.html">Markets</a></li>
-<li><a href="technology.html">Technology</a></li>
-<li><a href="contact.html">Book a demo</a></li>
-</ul>
-</nav>
-<nav aria-label="Legal">
-<h4>Legal</h4>
-<ul>
-<li><a href="privacy.html">Privacy Policy</a></li>
-<li><a href="terms.html">Terms of Service</a></li>
-</ul>
-</nav>
-</div>
-</div>
-<div class="footer-bottom">
-<p>© 2026 ALATA Pte. Ltd. (placeholder) · UEN [UEN] · Singapore · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
-</div>
-</div>
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
-
-<script src="assets/js/main.js"></script>
+<footer class="site-footer"><div class="container"><div class="footer-top"><div class="footer-brand"><a class="logo" href="index.html"><img src="assets/logo.svg" alt="ALATA" width="150" height="18"></a><p>Commerce, carried further.</p><span>Singapore · Southeast Asia</span></div><div class="footer-column"><h3>Solutions</h3><a href="solutions.html#setup">Store setup</a><a href="solutions.html#catalog">Catalogues</a><a href="solutions.html#live">Live commerce</a><a href="solutions.html#ads">Advertising</a><a href="solutions.html#fulfilment">Fulfilment</a><a href="solutions.html#analytics">Analytics</a></div><div class="footer-column"><h3>Company</h3><a href="about.html">About ALATA</a><a href="careers.html">Careers</a><a href="contact.html">Contact</a><a href="platforms.html">Platforms</a><a href="markets.html">Markets</a></div><div class="footer-column"><h3>Resources</h3><a href="technology.html">Technology</a><a href="insights.html">Insights</a><a href="insights.html">Seller guide</a><a href="contact.html">Support enquiry</a></div><div class="footer-column"><h3>Legal</h3><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div></div><div class="footer-bottom">© <span data-footer-year>2026</span> ALATA Pte. Ltd. (placeholder) · UEN [UEN] · Singapore · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></div></div></footer>
 </body>
 </html>
